@@ -33,7 +33,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Inventory",
+                    "name": "Eat",
                     "type": "Button",
                     "id": "73a4522f-0898-4726-b94b-1fae0584ada9",
                     "expectedControlType": "Button",
@@ -123,11 +123,11 @@
                 {
                     "name": "",
                     "id": "f8b2f8c2-b8c7-4a97-815e-9c73f6ec48aa",
-                    "path": "<Keyboard>/tab",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Inventory",
+                    "action": "Eat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

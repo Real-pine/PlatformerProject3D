@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   displayName: "\uBC84\uC12F"
-  description: "\uBC84\uC12F\uC774\uB2E4. \uBA39\uC5B4\uBCF4\uC790"
+  description: "\uBC84\uC12F\uC774\uB2E4. E\uB97C \uD1B5\uD574 \uBA39\uC5B4\uBCF4\uC790"
   itemType: 1
-  consumables: []
+  consumables:
+  - type: 0
+    value: 10
