@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
         cameraContainer.localEulerAngles = new Vector3(-camCurXRotation, 0, 0);
         
         transform.eulerAngles += new Vector3(0, mouseDelta.x * lookSensitivity, 0);
+        
         mouseDelta = Vector2.zero;
     }
 
