@@ -1273,6 +1273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodBoat
       objectReference: {fileID: 0}
+    - target: {fileID: 828664903445834998, guid: 3b21a5828516a2a4898b533b5580d707, type: 3}
+      propertyPath: m_TagString
+      value: JumpZone
+      objectReference: {fileID: 0}
     - target: {fileID: 3545584258957001723, guid: 3b21a5828516a2a4898b533b5580d707, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.39

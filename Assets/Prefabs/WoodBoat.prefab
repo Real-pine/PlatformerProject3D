@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6952314692709010372}
   m_Layer: 7
   m_Name: WoodBoat
-  m_TagString: Untagged
+  m_TagString: JumpZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

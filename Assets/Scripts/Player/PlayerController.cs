@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 curMovementInput;
     public float jumpForce;
     public LayerMask groundLayerMask;
+    
 
     [Header("Look")] public Transform cameraContainer;
     public float minXLook;
@@ -115,5 +116,15 @@ public class PlayerController : MonoBehaviour
             }
         }
         return false;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        int jumpZoneForce = 200;
+        if (other.gameObject.CompareTag("JumpZone"))
+        {
+            rigidbody.velocity = new Vector3(rigidbody.velocity.x, 0, rigidbody.velocity.z);
+            rigidbody.AddForce(Vector3.up * jumpZoneForce , ForceMode.Impulse);
+        }
     }
 }
